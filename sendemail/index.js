@@ -21,8 +21,8 @@ module.exports = async function (context, req) {
   });
 
   const mailOptions = {
-    from: 'kaifamilyfarm@yahoo.com',
-    to: 'kaifamilyfarm@yahoo.com',
+    from: 'kffsande12345@outlook.com',
+    to: 'kffsande12345@outlook.com',
     subject:
       'Order From ' + req.body.emailAddress + ' - ' + req.body.emailSubject,
     text: req.body.emailBody,
