@@ -21,10 +21,10 @@ module.exports = async function (context, req) {
   });
 
   const mailOptions = {
-    // from: 'kaifamilyfarm@yahoo.com',
-    // to: 'kaifamilyfarm@yahoo.com',
-    from: 'kffsande123456@outlook.com',
-    to: 'kffsande123456@outlook.com',
+    from: 'kaifamilyfarm@yahoo.com',
+    to: 'kaifamilyfarm@yahoo.com',
+    // from: 'kffsande123456@outlook.com',
+    // to: 'kffsande123456@outlook.com',
     subject:
       'Order From ' + req.body.emailAddress + ' - ' + req.body.emailSubject,
     text: req.body.emailBody,
